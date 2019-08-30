@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width", initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/custom.css">
 <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 <title>JSP 게시판 웹 사이트 </title>
 </head>
@@ -57,10 +58,10 @@
 					<div class="form-group" style="text-align:center;">
 						<div class="btn-group" data-toggle="buttons">
 							<label class = "btn btn-primary active">
-								<input type="radio" name="userGender" autocomplete="off" value="남자" check>남자
+								<input type="radio" name="userGender" autocomplete="off" value="남자" checked>남자
 							</label>
 							<label class = "btn btn-primary">
-								<input type="radio" name="userGender" autocomplete="off" value="여자" check>여자
+								<input type="radio" name="userGender" autocomplete="off" value="여자">여자
 							</label>
 						</div>
 					</div>
